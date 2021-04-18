@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Textutils</title>
+	</head>
+	<body>
+		<h2>WELCOME TO TEXT ANALYZER :)</h2>
+		<h1>Enter your text below:-</h1>
+		<form action="/analyze" method="GET">
+			<textarea
+				name="text"
+				style="margin: 0px; width: 1381px; height: 189px"
+			></textarea>
+			<input type="checkbox" name="removepunc" />Remove Punctuations<br />
+			<input type="checkbox" name="fullcaps" />UPPERCASE<br />
+			<input type="checkbox" name="newlinerem" />New Line Remover<br />
+			<input type="checkbox" name="extraspaceremover" />Extra Space Remover<br />
+
+			<button type="submit">ANALYZE TEXT</button>
+		</form>
+	</body>
+</html>
